@@ -3,36 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Varvarigos - Homepage</title>
+    <title>Varvarigos</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
     <header>
-        <h1>Varvarigos</h1>
-        <p>PhD Student in Electrical and Computer Engineering at Yale University</p>
+        <div class="container header-content">
+            <img src="profile.png" alt="Profile Picture" class="profile-img">
+            <h1>Andreas Varvarigos</h1>
+            <p>PhD Student in Electrical and Computer Engineering at Yale University</p>
+        </div>
     </header>
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I am a 1st-year PhD student in Electrical and Computer Engineering at Yale University, advised by Prof. Leandros Tassiulas. My research interests lie in Machine Learning (ML) and Deep Learning (DL), with a focus on their applications in Networked Systems.</p>
-        <p>I completed my MEng in Electrical and Electronic Engineering (EIE) at Imperial College London, where I worked with Prof. Krystian Mikolajczyk on video reconstruction from semantic segmentation using Diffusion Models for my Final Year Project.</p>
+
+    <section class="content">
+        <div class="container">
+            <div class="card">
+                <h2>About Me</h2>
+                <p>
+                    I am a 1st-year PhD student in Electrical and Computer Engineering at Yale University, advised by 
+                    Prof. Leandros Tassiulas. My research interests lie in Machine Learning (ML) and Deep Learning (DL), 
+                    with a focus on their applications in Networked Systems.
+                </p>
+                <p>
+                    I completed my MEng in Electrical and Electronic Engineering (EIE) at Imperial College London, where 
+                    I worked with Prof. Krystian Mikolajczyk on video reconstruction from semantic segmentation using 
+                    Diffusion Models for my Final Year Project.
+                </p>
+            </div>
+
+            <div class="card">
+                <h2>Research Interests</h2>
+                <ul>
+                    <li>Large Language Models (LLMs)</li>
+                    <li>Retrieval-Augmented Generation (RAG)</li>
+                    <li>Graph Neural Networks (GNNs)</li>
+                    <li>Deep Learning for Networked Systems</li>
+                    <li>Computer Vision</li>
+                </ul>
+            </div>
+        </div>
     </section>
-    <section id="interests">
-        <h2>Research Interests</h2>
-        <ul>
-            <li>Large Language Models (LLMs)</li>
-            <li>Retrieval-Augmented Generation (RAG)</li>
-            <li>Graph Neural Networks (GNNs)</li>
-            <li>Deep Learning for Networked Systems</li>
-            <li>Computer Vision</li>
-        </ul>
-    </section>
+
     <footer>
-        <p>Contact: <a href="mailto:andreas.varvarigos@yale.edu">andreas.varvarigos@yale.edu</a></p>
-        <p>GitHub: <a href="https://github.com/varvarigos">varvarigos</a></p>
+        <div class="container">
+            <p>Contact: <a href="mailto:andreas.varvarigos@yale.edu">andreas.varvarigos@yale.edu</a></p>
+            <p>GitHub: <a href="https://github.com/varvarigos" target="_blank">varvarigos</a></p>
+        </div>
     </footer>
-    
-    <script>
-        console.log("Welcome to my profile!");
-    </script>
+
 </body>
 </html>
