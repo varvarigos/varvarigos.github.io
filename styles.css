@@ -16,8 +16,9 @@ body {
     max-width: 1000px;
     width: 90%;
     margin: 60px auto;
-    align-items: flex-start;
+    align-items: center;
     gap: 50px;
+    position: relative;
 }
 
 /* Left Section (Profile Picture + Contact Info) */
@@ -25,9 +26,6 @@ body {
     width: 300px;
     text-align: center;
     flex-shrink: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 /* Profile Image */
@@ -60,12 +58,11 @@ body {
     margin-bottom: 15px;
 }
 
-/* Contact Section (Left-Aligned) */
+/* Contact Section */
 .contact {
     font-size: 14px;
-    text-align: left;
-    width: 100%;
-    padding-left: 10px;
+    text-align: center;
+    line-height: 1.6;
     margin-top: 10px;
 }
 
@@ -83,14 +80,14 @@ body {
     text-decoration: underline;
 }
 
-/* Divider Between Left & Right Sections */
+/* Divider Line Between Left & Right Sections */
 .divider {
-    width: 1.5px;
+    width: 1px;
     height: 100%;
-    background-color: #d1d5da;
-    position: relative;
-    left: 15px;
-    opacity: 1;
+    background-color: #e1e4e8;
+    position: absolute;
+    left: 310px;
+    top: 0;
 }
 
 /* Right Section (Bio + Research Interests) */
