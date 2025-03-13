@@ -5,21 +5,27 @@ body {
     padding: 0;
     background-color: #f6f8fa;
     color: #24292e;
-}
-
-/* Header */
-header {
-    background: #ffffff;
-    color: #24292e;
-    text-align: center;
-    padding: 50px 20px;
-    border-bottom: 1px solid #d1d5da;
-}
-
-.header-content {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+/* Container Layout */
+.container {
+    display: flex;
+    max-width: 1000px;
+    width: 90%;
+    margin: 40px auto;
+}
+
+/* Sidebar (Left Panel) */
+.sidebar {
+    width: 280px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
 .profile-img {
@@ -31,31 +37,58 @@ header {
     margin-bottom: 15px;
 }
 
-/* Content */
-.container {
-    width: 90%;
-    max-width: 800px;
-    margin: 30px auto;
+.sidebar h1 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.sidebar p {
+    font-size: 14px;
+    color: #586069;
+}
+
+/* Contact Section */
+.contact {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.contact h3 {
+    font-size: 16px;
+    color: #0366d6;
+    border-bottom: 1px solid #d1d5da;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.contact p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.contact a {
+    color: #0366d6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+/* Content (Right Panel) */
+.content {
+    flex: 1;
+    margin-left: 20px;
 }
 
 .card {
     background: white;
     padding: 20px;
-    margin: 20px 0;
+    margin-bottom: 20px;
     border-radius: 8px;
     border: 1px solid #d1d5da;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
-    transition: transform 0.2s;
-}
-
-.card:hover {
-    transform: translateY(-2px);
-}
-
-h1 {
-    margin: 10px 0;
-    font-size: 28px;
-    font-weight: bold;
 }
 
 h2 {
@@ -64,28 +97,12 @@ h2 {
     padding-bottom: 5px;
 }
 
-ul {
-    padding-left: 20px;
-}
-
-/* Contact Links */
-.card a {
-    color: #0366d6;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.card a:hover {
-    text-decoration: underline;
-}
-
 /* Footer */
 footer {
     background-color: #ffffff;
     color: #24292e;
     text-align: center;
     padding: 15px;
-    margin-top: 40px;
-    font-size: 14px;
+    width: 100%;
     border-top: 1px solid #d1d5da;
 }
