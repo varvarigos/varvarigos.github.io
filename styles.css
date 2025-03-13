@@ -15,14 +15,14 @@ body {
     display: flex;
     max-width: 1000px;
     width: 90%;
-    margin: 40px auto;
+    margin: 60px auto;
     gap: 50px;
     align-items: flex-start;
 }
 
 /* Left Section (Profile Picture + Contact Info) */
 .left-section {
-    width: 300px;
+    width: 280px;
     text-align: center;
     flex-shrink: 0;
 }
@@ -33,36 +33,40 @@ body {
     border-radius: 50%;
     border: 3px solid #d1d5da;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 }
 
 .left-section h1 {
     font-size: 22px;
     font-weight: 600;
     margin-bottom: 5px;
+    text-align: center;
 }
 
 .role {
     font-size: 14px;
     color: #586069;
     margin-bottom: 8px;
+    text-align: center;
 }
 
 .location {
     font-size: 14px;
     font-weight: 500;
     color: #0366d6;
-    margin-bottom: 12px;
+    margin-bottom: 15px;
+    text-align: center;
 }
 
 /* Contact Section */
 .contact {
     font-size: 14px;
-    text-align: left;
+    text-align: center;
+    line-height: 1.6;
 }
 
 .contact p {
-    margin: 4px 0;
+    margin: 6px 0;
 }
 
 .contact a {
@@ -78,12 +82,16 @@ body {
 /* Right Section (Bio + Research Interests) */
 .right-section {
     flex: 1;
+    padding-top: 10px;
 }
 
+/* Ensure sections are evenly spaced */
 .bio-section, .research-section {
     margin-bottom: 25px;
+    padding-left: 10px;
 }
 
+/* Section Headings */
 h2 {
     font-size: 20px;
     color: #0366d6;
