@@ -13,29 +13,29 @@ body {
 /* Container Layout */
 .container {
     display: flex;
-    max-width: 900px;
+    max-width: 1000px;
     width: 90%;
     margin: 40px auto;
-    gap: 40px;
+    gap: 50px;
     align-items: flex-start;
 }
 
-/* Left Section (Profile + Socials) */
-.left-section {
-    width: 270px;
+/* Left Column (Profile + Socials) */
+.left-column {
+    width: 280px;
     text-align: center;
 }
 
 .profile-img {
-    width: 130px;
-    height: 130px;
+    width: 140px;
+    height: 140px;
     border-radius: 50%;
     border: 3px solid #d1d5da;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
     margin-bottom: 10px;
 }
 
-.left-section h1 {
+.left-column h1 {
     font-size: 22px;
     font-weight: 600;
     margin-bottom: 5px;
@@ -74,8 +74,8 @@ body {
     text-decoration: underline;
 }
 
-/* Right Section (Bio + Research Interests) */
-.right-section {
+/* Right Column (Bio + Research Interests) */
+.right-column {
     flex: 1;
 }
 
@@ -84,7 +84,7 @@ body {
 }
 
 h2 {
-    font-size: 18px;
+    font-size: 20px;
     color: #0366d6;
     margin-bottom: 10px;
 }
