@@ -1,6 +1,6 @@
 /* General Styles */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f6f8fa;
@@ -22,43 +22,52 @@ body {
 .sidebar {
     width: 280px;
     background: #ffffff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.08);
     text-align: center;
 }
 
 .profile-img {
-    width: 140px;
-    height: 140px;
+    width: 130px;
+    height: 130px;
     border-radius: 50%;
-    border: 2px solid #d1d5da;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-    margin-bottom: 15px;
+    border: 3px solid #d1d5da;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 12px;
 }
 
 .sidebar h1 {
     font-size: 22px;
-    margin-bottom: 10px;
+    font-weight: 600;
+    margin-bottom: 5px;
 }
 
-.sidebar p {
+.role {
     font-size: 14px;
     color: #586069;
+    margin-bottom: 15px;
+}
+
+.location {
+    font-size: 13px;
+    font-weight: 500;
+    color: #0366d6;
+    margin-bottom: 5px;
 }
 
 /* Contact Section */
 .contact {
-    margin-top: 20px;
     text-align: left;
+    border-top: 1px solid #e1e4e8;
+    padding-top: 12px;
+    margin-top: 15px;
 }
 
 .contact h3 {
     font-size: 16px;
     color: #0366d6;
-    border-bottom: 1px solid #d1d5da;
-    padding-bottom: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 
 .contact p {
@@ -69,7 +78,7 @@ body {
 .contact a {
     color: #0366d6;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .contact a:hover {
@@ -79,30 +88,31 @@ body {
 /* Content (Right Panel) */
 .content {
     flex: 1;
-    margin-left: 20px;
+    margin-left: 24px;
 }
 
 .card {
     background: white;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 8px;
-    border: 1px solid #d1d5da;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+    padding: 22px;
+    border-radius: 10px;
+    border: 1px solid #e1e4e8;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.05);
+    margin-bottom: 16px;
 }
 
 h2 {
     color: #0366d6;
-    border-bottom: 1px solid #d1d5da;
-    padding-bottom: 5px;
+    font-size: 18px;
+    margin-bottom: 10px;
 }
 
 /* Footer */
 footer {
     background-color: #ffffff;
-    color: #24292e;
+    color: #586069;
     text-align: center;
-    padding: 15px;
+    padding: 12px;
     width: 100%;
-    border-top: 1px solid #d1d5da;
+    font-size: 13px;
+    border-top: 1px solid #e1e4e8;
 }
