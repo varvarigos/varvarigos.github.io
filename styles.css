@@ -3,17 +3,17 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #fdfdfd;
-    color: #333;
+    background-color: #f6f8fa;
+    color: #24292e;
 }
 
 /* Header */
 header {
-    background: #f2f4f8;
-    color: #333;
+    background: #ffffff;
+    color: #24292e;
     text-align: center;
     padding: 50px 20px;
-    border-bottom: 2px solid #ddd;
+    border-bottom: 1px solid #d1d5da;
 }
 
 .header-content {
@@ -26,8 +26,8 @@ header {
     width: 140px;
     height: 140px;
     border-radius: 50%;
-    border: 3px solid #ddd;
-    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);
+    border: 2px solid #d1d5da;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
     margin-bottom: 15px;
 }
 
@@ -40,15 +40,16 @@ header {
 
 .card {
     background: white;
-    padding: 25px;
+    padding: 20px;
     margin: 20px 0;
-    border-radius: 10px;
-    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease-in-out;
+    border-radius: 8px;
+    border: 1px solid #d1d5da;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s;
 }
 
 .card:hover {
-    transform: translateY(-3px);
+    transform: translateY(-2px);
 }
 
 h1 {
@@ -58,8 +59,8 @@ h1 {
 }
 
 h2 {
-    color: #444;
-    border-bottom: 2px solid #eee;
+    color: #0366d6;
+    border-bottom: 1px solid #d1d5da;
     padding-bottom: 5px;
 }
 
@@ -67,41 +68,24 @@ ul {
     padding-left: 20px;
 }
 
-/* Footer */
-footer {
-    background-color: #f8f9fa;
-    color: #333;
-    text-align: center;
-    padding: 15px;
-    margin-top: 40px;
-    font-size: 14px;
-    border-top: 2px solid #ddd;
-}
-
-footer a {
-    color: #0077b6;
+/* Contact Links */
+.card a {
+    color: #0366d6;
     text-decoration: none;
     font-weight: bold;
 }
 
-footer a:hover {
+.card a:hover {
     text-decoration: underline;
 }
 
-/* Social Media Icons */
-.social-icons {
-    margin-top: 10px;
-}
-
-.social-icons a {
-    color: #0077b6;
-    font-size: 24px;
-    margin: 0 10px;
-    display: inline-block;
-    transition: transform 0.2s, color 0.3s;
-}
-
-.social-icons a:hover {
-    transform: scale(1.2);
-    color: #005082;
+/* Footer */
+footer {
+    background-color: #ffffff;
+    color: #24292e;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+    font-size: 14px;
+    border-top: 1px solid #d1d5da;
 }
