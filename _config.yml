@@ -26,10 +26,11 @@ author:
   avatar           : "profile.png"
   name             : "Andreas Varvarigos"
   pronouns         : # example: "she/her"  
-  bio              : "2nd year Ph.D. student in Electrical and Computer Engineering at Yale University"
+  bio              : "Second year Ph.D. student in Electrical and Computer Engineering at Yale University"
   location         : "New Haven, CT, USA"
   employer         : "Yale University"
   uri              : "https://smartnets.yale.edu/members/andreas_varvarigos"
+  uri_label        : "SmartNets Lab"
   email            : "andreas.varvarigos@yale.edu"
 
   # Academic websites
