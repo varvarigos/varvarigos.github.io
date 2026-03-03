@@ -49,7 +49,7 @@ li {
 }
 
 .site-shell {
-    max-width: 1600px;
+    max-width: 1460px;
     margin: 0 auto;
 }
 
@@ -57,8 +57,8 @@ li {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 24px;
-    padding: 22px 32px 14px;
+    gap: 20px;
+    padding: 16px 26px 10px;
     border-bottom: 1px solid var(--line);
     background: rgba(244, 240, 232, 0.85);
     position: sticky;
@@ -67,7 +67,7 @@ li {
 }
 
 .brand {
-    font-size: 1.05rem;
+    font-size: 0.94rem;
     font-weight: 700;
     color: var(--nav);
     border-bottom: 3px solid var(--nav);
@@ -76,13 +76,13 @@ li {
 
 .topnav {
     display: flex;
-    gap: 18px;
+    gap: 14px;
     flex-wrap: wrap;
 }
 
 .topnav a {
     color: var(--nav);
-    font-size: 1rem;
+    font-size: 0.92rem;
     font-weight: 600;
     padding: 6px 2px;
 }
@@ -93,20 +93,20 @@ li {
 
 .page-grid {
     display: grid;
-    grid-template-columns: 320px minmax(0, 1fr);
-    gap: 28px;
-    padding: 40px 32px 56px;
+    grid-template-columns: 270px minmax(0, 1fr);
+    gap: 22px;
+    padding: 26px 26px 40px;
 }
 
 .profile-card {
     align-self: start;
     position: sticky;
-    top: 110px;
+    top: 82px;
 }
 
 .profile-image {
     width: 100%;
-    max-width: 290px;
+    max-width: 220px;
     aspect-ratio: 1 / 1;
     object-fit: cover;
     border-radius: 50%;
@@ -115,48 +115,58 @@ li {
 }
 
 .profile-card h1 {
-    margin-top: 20px;
-    font-size: 2rem;
+    margin-top: 16px;
+    font-size: 1.55rem;
     font-family: "Avenir Next", "Segoe UI", sans-serif;
     font-weight: 700;
     letter-spacing: normal;
 }
 
 .profile-role {
-    margin-top: 12px;
-    font-size: 1rem;
+    margin-top: 10px;
+    font-size: 0.88rem;
     color: var(--muted);
 }
 
-.profile-links {
-    list-style: none;
-    padding: 0;
-    margin: 24px 0 0;
+.profile-meta {
+    margin-top: 20px;
     display: grid;
     gap: 12px;
 }
 
-.profile-links li {
+.profile-meta p {
+    margin: 0;
     color: var(--muted);
-    font-size: 1rem;
+    font-size: 0.9rem;
+    line-height: 1.45;
+}
+
+.profile-meta span {
+    display: block;
+    margin-bottom: 2px;
+    color: var(--accent);
+    font-size: 0.69rem;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
 }
 
 .content-column {
     display: grid;
-    gap: 22px;
+    gap: 18px;
 }
 
 .content-card {
     background: rgba(248, 245, 239, 0.82);
     border: 1px solid rgba(255, 255, 255, 0.7);
-    border-radius: 28px;
-    padding: 34px 36px;
+    border-radius: 24px;
+    padding: 24px 26px;
 }
 
 .section-kicker {
     margin: 0 0 10px;
     color: var(--accent);
-    font-size: 0.92rem;
+    font-size: 0.78rem;
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 0.14em;
@@ -167,13 +177,13 @@ li {
 }
 
 .content-card h2 {
-    font-size: clamp(2.7rem, 5vw, 4.4rem);
-    margin-bottom: 16px;
+    font-size: clamp(2rem, 4vw, 3.2rem);
+    margin-bottom: 12px;
 }
 
 .content-card p {
-    font-size: 1.04rem;
-    margin: 0 0 16px;
+    font-size: 0.96rem;
+    margin: 0 0 14px;
 }
 
 .chip-row {
@@ -186,10 +196,11 @@ li {
 .chip-row span {
     border: 1px solid #d9d5cc;
     border-radius: 999px;
-    padding: 11px 18px;
+    padding: 8px 14px;
     background: #f8f5ef;
     color: var(--accent);
     font-weight: 700;
+    font-size: 0.86rem;
 }
 
 .news-list {
@@ -198,15 +209,15 @@ li {
 }
 
 .news-list li {
-    font-size: 1.04rem;
-    margin-bottom: 14px;
+    font-size: 0.96rem;
+    margin-bottom: 10px;
 }
 
 .publication-item,
 .entry-block {
     border-top: 1px solid var(--line);
-    padding-top: 22px;
-    margin-top: 22px;
+    padding-top: 18px;
+    margin-top: 18px;
 }
 
 .publication-item:first-of-type,
@@ -218,8 +229,8 @@ li {
 
 .publication-item {
     display: grid;
-    grid-template-columns: minmax(180px, 240px) minmax(0, 1fr);
-    gap: 22px;
+    grid-template-columns: minmax(160px, 210px) minmax(0, 1fr);
+    gap: 18px;
     align-items: start;
 }
 
@@ -232,8 +243,8 @@ li {
 
 .publication-item h3,
 .entry-block h3 {
-    font-size: 1.2rem;
-    margin-bottom: 10px;
+    font-size: 1.02rem;
+    margin-bottom: 8px;
 }
 
 .button-link {
@@ -261,7 +272,7 @@ li {
     }
 
     .profile-image {
-        max-width: 220px;
+        max-width: 190px;
     }
 
     .publication-item {
@@ -283,11 +294,11 @@ li {
     }
 
     .content-card {
-        padding: 24px 22px;
+        padding: 20px 18px;
         border-radius: 20px;
     }
 
     .content-card h2 {
-        font-size: 2.5rem;
+        font-size: 2.1rem;
     }
 }
