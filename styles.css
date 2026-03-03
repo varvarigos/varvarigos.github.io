@@ -149,9 +149,12 @@ li {
     justify-content: center;
     width: 18px;
     height: 18px;
-    font-size: 0.78rem;
     color: var(--accent);
     line-height: 1;
+}
+
+.meta-icon i {
+    font-size: 0.86rem;
 }
 
 .meta-copy {
