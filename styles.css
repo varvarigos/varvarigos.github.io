@@ -67,7 +67,7 @@ li {
 }
 
 .brand {
-    font-size: 0.94rem;
+    font-size: 0.88rem;
     font-weight: 700;
     color: var(--nav);
     border-bottom: 3px solid var(--nav);
@@ -82,7 +82,7 @@ li {
 
 .topnav a {
     color: var(--nav);
-    font-size: 0.92rem;
+    font-size: 0.84rem;
     font-weight: 600;
     padding: 6px 2px;
 }
@@ -93,9 +93,9 @@ li {
 
 .page-grid {
     display: grid;
-    grid-template-columns: 270px minmax(0, 1fr);
-    gap: 22px;
-    padding: 26px 26px 40px;
+    grid-template-columns: 245px minmax(0, 1fr);
+    gap: 18px;
+    padding: 22px 22px 34px;
 }
 
 .profile-card {
@@ -106,7 +106,7 @@ li {
 
 .profile-image {
     width: 100%;
-    max-width: 220px;
+    max-width: 200px;
     aspect-ratio: 1 / 1;
     object-fit: cover;
     border-radius: 50%;
@@ -116,7 +116,7 @@ li {
 
 .profile-card h1 {
     margin-top: 16px;
-    font-size: 1.55rem;
+    font-size: 1.32rem;
     font-family: "Avenir Next", "Segoe UI", sans-serif;
     font-weight: 700;
     letter-spacing: normal;
@@ -124,31 +124,57 @@ li {
 
 .profile-role {
     margin-top: 10px;
-    font-size: 0.88rem;
+    font-size: 0.8rem;
     color: var(--muted);
 }
 
 .profile-meta {
+    list-style: none;
+    padding: 0;
     margin-top: 20px;
     display: grid;
-    gap: 12px;
+    gap: 10px;
 }
 
-.profile-meta p {
-    margin: 0;
-    color: var(--muted);
-    font-size: 0.9rem;
-    line-height: 1.45;
+.meta-row {
+    display: grid;
+    grid-template-columns: 18px minmax(0, 1fr);
+    gap: 10px;
+    align-items: start;
 }
 
-.profile-meta span {
-    display: block;
-    margin-bottom: 2px;
+.meta-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 18px;
+    height: 18px;
+    font-size: 0.78rem;
     color: var(--accent);
+    line-height: 1;
+}
+
+.meta-copy {
+    display: grid;
+    gap: 1px;
+}
+
+.meta-label {
+    display: block;
     font-size: 0.69rem;
     font-weight: 800;
     letter-spacing: 0.12em;
     text-transform: uppercase;
+}
+
+.meta-value {
+    color: var(--muted);
+    font-size: 0.84rem;
+    line-height: 1.35;
+}
+
+a.meta-value {
+    color: var(--accent);
 }
 
 .content-column {
@@ -159,14 +185,14 @@ li {
 .content-card {
     background: rgba(248, 245, 239, 0.82);
     border: 1px solid rgba(255, 255, 255, 0.7);
-    border-radius: 24px;
-    padding: 24px 26px;
+    border-radius: 22px;
+    padding: 20px 22px;
 }
 
 .section-kicker {
     margin: 0 0 10px;
     color: var(--accent);
-    font-size: 0.78rem;
+    font-size: 0.72rem;
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 0.14em;
@@ -177,13 +203,13 @@ li {
 }
 
 .content-card h2 {
-    font-size: clamp(2rem, 4vw, 3.2rem);
-    margin-bottom: 12px;
+    font-size: clamp(1.7rem, 3.2vw, 2.6rem);
+    margin-bottom: 10px;
 }
 
 .content-card p {
-    font-size: 0.96rem;
-    margin: 0 0 14px;
+    font-size: 0.88rem;
+    margin: 0 0 12px;
 }
 
 .chip-row {
@@ -196,11 +222,11 @@ li {
 .chip-row span {
     border: 1px solid #d9d5cc;
     border-radius: 999px;
-    padding: 8px 14px;
+    padding: 7px 12px;
     background: #f8f5ef;
     color: var(--accent);
     font-weight: 700;
-    font-size: 0.86rem;
+    font-size: 0.78rem;
 }
 
 .news-list {
@@ -209,8 +235,8 @@ li {
 }
 
 .news-list li {
-    font-size: 0.96rem;
-    margin-bottom: 10px;
+    font-size: 0.88rem;
+    margin-bottom: 8px;
 }
 
 .publication-item,
@@ -229,13 +255,15 @@ li {
 
 .publication-item {
     display: grid;
-    grid-template-columns: minmax(160px, 210px) minmax(0, 1fr);
+    grid-template-columns: minmax(240px, 320px) minmax(0, 1fr);
     gap: 18px;
     align-items: start;
 }
 
 .publication-image {
     width: 100%;
+    height: 160px;
+    object-fit: cover;
     border-radius: 18px;
     border: 1px solid var(--line);
     background: #ffffff;
@@ -243,7 +271,7 @@ li {
 
 .publication-item h3,
 .entry-block h3 {
-    font-size: 1.02rem;
+    font-size: 0.94rem;
     margin-bottom: 8px;
 }
 
