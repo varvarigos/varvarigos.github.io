@@ -12,4 +12,4 @@ header:
   teaser: "publications/telecomts.png"
 ---
 
-Authors: A. Feng<sup>*</sup>, **A. Varvarigos**<sup>*</sup>, I. Panitsas, D. Fernandez, Y. Guo, J. Wei, J. Chen, A. Maatouk, L. Tassiulas, R. Ying.
+Authors: A. Feng, A. Varvarigos, I. Panitsas, D. Fernandez, Y. Guo, J. Wei, J. Chen, A. Maatouk, L. Tassiulas, R. Ying.
