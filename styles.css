@@ -282,16 +282,15 @@ a.meta-value {
 
 .entry-head {
     display: flex;
-    justify-content: space-between;
     align-items: baseline;
-    gap: 12px;
+    gap: 14px;
+    flex-wrap: wrap;
 }
 
 .entry-date {
     margin: 0;
     color: var(--muted);
     font-size: 0.8rem;
-    text-align: right;
     white-space: nowrap;
 }
 
@@ -330,10 +329,6 @@ a.meta-value {
     .entry-head {
         flex-direction: column;
         align-items: flex-start;
-    }
-
-    .entry-date {
-        text-align: left;
     }
 }
 
