@@ -12,4 +12,4 @@ header:
   teaser: "publications/intent_based_alloc.png"
 ---
 
-Authors: P. Kokkinos, **A. Varvarigos**, D. Konidaris, K. Tserpes.
+Authors: P. Kokkinos, A. Varvarigos, D. Konidaris, K. Tserpes.
