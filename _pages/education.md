@@ -30,7 +30,12 @@ Sept 2020 - June 2024
 Teaching Experience
 ======
 
-**Graduate Teaching Assistant, Yale University, New Haven, CT, USA**
+**ECE 4551 / 9631 Network Algorithms and Stochastic Optimization**  
+Graduate Teaching Assistant, Yale University, Spring 2026
 
-* ECE 4551 / 9631 Network Algorithms and Stochastic Optimization
-* ECE 2020 Introduction to Communications and Control
+* Topics: stochastic network models, resource allocation and scheduling, routing and flow control, Markov Decision Processes, reinforcement learning, wireless and cloud network systems.
+
+**ECE 2020 Introduction to Communications and Control**  
+Graduate Teaching Assistant, Yale University, Fall 2025
+
+* Topics: coding theory, information theory, network systems, signal processing, machine learning, and statistics.

@@ -8,6 +8,11 @@ author_profile: true
 Work Experience
 ======
 
+**Video Computer Vision Intern, Apple Inc.**  
+June 2026 - Aug 2026
+
+* Designing and implementing efficient training and evaluation pipelines for deep learning models in video computer vision.
+
 **Logic Design Engineer, NVIDIA**  
 Aug 2023 - Oct 2023
 
