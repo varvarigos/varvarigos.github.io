@@ -14,5 +14,6 @@ My broader interests include Multimodal Learning, Time Series Deep Learning, Fou
 News
 ======
 
+* April 2026: TelecomTS was accepted at ICML 2026.
 * November 2025: LitBench was accepted at KDD 2026.
 * August 2024: I started my Ph.D. journey at Yale University.
