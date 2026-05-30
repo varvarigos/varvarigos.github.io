@@ -14,6 +14,8 @@ My broader interests include Multimodal Learning, Time Series Deep Learning, Fou
 News
 ======
 
+* June 2026: I started a Video Computer Vision Internship at Apple Inc., Sunnyvale, CA, USA.
+* May 2026: I obtained my M.Sc. in Electrical and Computer Engineering from Yale University.
 * April 2026: TelecomTS was accepted at ICML 2026.
 * November 2025: LitBench was accepted at KDD 2026.
 * August 2024: I started my Ph.D. journey at Yale University.
