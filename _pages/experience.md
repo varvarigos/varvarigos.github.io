@@ -11,7 +11,7 @@ Work Experience
 **Video Computer Vision Intern, Apple Inc.**  
 June 2026 - Aug 2026
 
-* Designing and implementing efficient training and evaluation pipelines for deep learning models in video computer vision.
+* Developed on-device personalization methods for multimodal models using reinforcement learning for frame-level classification.
 
 **Logic Design Engineer, NVIDIA**  
 Aug 2023 - Oct 2023
